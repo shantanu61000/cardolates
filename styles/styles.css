@@ -1,0 +1,196 @@
+section.hero-section {
+  padding-top: 10vh;
+  padding-bottom: 5vh;
+  min-height: 85vh;
+}
+
+section.hero-section h1 {
+  font-weight: 600;
+  font-size: 36px;
+  padding: 0px 5px;
+  margin-bottom: 15px;
+  line-height: 40px;
+}
+
+section.hero-section p {
+  margin-bottom: 60px;
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 0px 5px;
+}
+
+section.hero-section img {
+  margin-top: 50px;
+}
+
+section.hero-section button.get-started {
+  font-size: 18px;
+  padding: 15px 45px;
+  border-radius: 6px;
+  background-color: #c70adc;
+  color: white;
+  border: 0px;
+  -webkit-box-shadow: 0px 3px 20px #00000027;
+          box-shadow: 0px 3px 20px #00000027;
+  font-weight: 500;
+}
+
+.get-started-section p {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.feature-section {
+  background-color: #fdb35a;
+}
+
+.box-shadow {
+  -webkit-box-shadow: 0px 3px 30px #00000027;
+          box-shadow: 0px 3px 30px #00000027;
+  border-radius: 8px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.feature-ol li {
+  font-size: 0.9rem;
+  padding: 15px 0px;
+}
+
+.pricing-section table {
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 2px 10px #00000027;
+          box-shadow: 0px 2px 10px #00000027;
+  background-color: white;
+}
+
+.pricing-section table td {
+  border: 0px;
+  font-size: 0.8rem;
+  padding: 16px 30px;
+}
+
+.pricing-section table th {
+  padding: 16px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  font-size: 0.9rem;
+  text-align: center;
+  border: 0px;
+}
+
+.footer-section {
+  background-color: #FBF2FF;
+  margin-top: 50px;
+  padding: 20px 0px;
+}
+
+.footer-section h6 {
+  font-size: 0.8rem;
+}
+
+.footer-section p {
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+.footer-section img {
+  margin-left: -6px;
+}
+
+.footer-section li {
+  list-style: none;
+  font-size: 0.8rem;
+  font-weight: 300;
+  padding-bottom: 3px;
+}
+
+.footer-section li a {
+  color: #3f3d56;
+}
+
+@media (min-width: 768px) {
+  section.hero-section {
+    min-height: unset;
+  }
+  section.hero-section img {
+    margin-top: unset;
+    margin-left: unset;
+  }
+  .subtitle {
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 15px;
+  }
+  .feature {
+    background-color: #F3C291;
+    padding: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border-radius: 6px;
+  }
+  .feature h2 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 16px;
+  }
+  .feature p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-bottom: 0px;
+  }
+  .footer-section {
+    margin-top: 50px;
+    padding: 40px 60px;
+  }
+}
+
+@media (min-width: 1024px) {
+  section.hero-section h1 {
+    font-size: 40px;
+    line-height: 46px;
+  }
+  .subtitle {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  section.hero-section {
+    padding-top: 5vh;
+    padding-bottom: 0vh;
+    min-height: 75vh;
+    margin-top: 10vh;
+  }
+  section.hero-section h1 {
+    font-size: 43px;
+    line-height: 47px;
+  }
+  .footer-section {
+    margin-top: 50px;
+    padding: 40px 110px;
+  }
+}
+
+@media (min-width: 1920px) {
+  section.hero-section h1 {
+    font-size: 55px;
+    line-height: 61px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

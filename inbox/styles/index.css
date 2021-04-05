@@ -1,0 +1,67 @@
+.letter {
+  height: 100px;
+  border-radius: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-size: cover;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.letter p {
+  background-color: #ffffffdc;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 20px;
+  font-size: 0.9rem;
+}
+
+.modal {
+  background-color: #000000d3;
+}
+
+.modal .modal-content {
+  border-radius: 12px;
+}
+
+.modal .modal-content .modal-body {
+  border-radius: 12px;
+  background-size: cover;
+}
+
+.modal .modal-content .modal-body .modal-letter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.modal .modal-content .modal-body .modal-letter img {
+  height: 70px;
+  width: 70px;
+}
+
+.modal .modal-content .modal-body .modal-letter p {
+  font-size: 0.9rem;
+  margin: 20px 10px;
+  padding: 10px 15px;
+  background-color: #ffffffe5;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=index.css.map */
