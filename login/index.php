@@ -88,12 +88,12 @@ session_start();
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-sm-4 col-md-5 mt-5 d-none d-sm-block">
-                    <img src="../img/ID Card-amico.svg" alt="ID card" class="img-fluid">
+                    <embed src="../img/ID Card-amico.png" alt="ID card" class="img-fluid">
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4 offset-md-1">
                     <div class="row justify-content-center">
                         <div class="col-3 p-0">
-                            <img src="../img/logo2.svg" alt="Cardolates Logo" class="img-fluid">
+                            <img src="../img/logo2.png" alt="Cardolates Logo" class="img-fluid">
                         </div>
                     </div>
                     <div class="row justify-content-center">

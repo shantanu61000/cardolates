@@ -72,7 +72,7 @@ if (isset($_GET['str']) && isset($_GET['action'])) {
                                     <div class="card-body">
                                         <div class="row">
                                             <div class="col-auto">
-                                                <h3 class="text-center" style="display: inline;">Cardolates.ml</h6> <span>Reset Password</span>
+                                                <h3 class="text-center" style="display: inline;">Cardolates.ml </h6> <span>Reset Password</span>
                                             </div>
                                         </div>
                                         <br>

@@ -48,7 +48,7 @@
                 <?php
                 $url =  $_SERVER['PHP_SELF'];
                 $conURL = "";
-                if (strpos($url, "cardolates/index.php") > 0) {
+                if (strpos($url, "index.php") == 1) {
                     $conURL = "connection.php";
                 } else
                     $conURL = "../connection.php";

@@ -22,7 +22,7 @@ if(isset($_POST['forgotPass'])){
                         <p>Thanks</p>";
                $headers = "MIME-Version: 1.0" . "\r\n";
                $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-               $headers .= 'From: Cardolates.ml <resetpassword.bookshelf.in>';
+               $headers .= 'From: cardolates@gmail.com <resetpassword.bookshelf.in>';
                $status=mail($email,$subject,$body,$headers);               
                if($status){
                    //email sent

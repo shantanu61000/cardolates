@@ -234,8 +234,8 @@ include ("shared/nav/nav.php");?>
                 <div class="col-6 col-sm-3 col-lg-2">
                     <h6>Contact :</h6>
                     <ul>
-                        <li> <a href="mailto:webadmin@cardolates.tk"> webadmin@cardolates.tk </a></li>
-                        <li> <a href="tel:+918459751677"></a> +91-8459751677</li>
+                        <li> <a href="mailto:cardolates@gmail.com"> webadmin@cardolates.ml</a></li>
+                        <li> <a href="tel: +918459751677"></a> +91-8459751677</li>
                     </ul>
                 </div>
                 <div class="col-4 col-sm-3 col-lg-2">
