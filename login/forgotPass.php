@@ -17,7 +17,7 @@ if(isset($_POST['forgotPass'])){
                //below are the contents to be sent
                $subject='Cardolates reset password';
                $body="  <h1>Cardolates.ml</h1>
-                        <h3>This email is in response of your password reset request. Please click on the link given below to reset your password</h3><a href='http://localhost/cardolates/newPass.php?str=$str&action=resetpassword'>
+                        <h3>This email is in response of your password reset request. Please click on the link given below to reset your password</h3><a href='https://cardolates.ml//newPass.php?str=$str&action=resetpassword'>
                         Reset Password Link</a>
                         <p>Thanks</p>";
                $headers = "MIME-Version: 1.0" . "\r\n";

@@ -34,7 +34,7 @@ $(".changePassBtn").click(function(e){
                 },
                 success: function(response){
                     if(response == 1){
-                        $(".response").html("Password reset successful <a href='http://localhost/cardolates/login'>Click here to login</a>");
+                        $(".response").html("Password reset successful <a href='https://cardolates.ml//login'>Click here to login</a>");
                         $("#newPassForm").trigger("reset");
                         $(".response").css("color","green");
                     }

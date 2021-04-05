@@ -1,17 +1,17 @@
 <div class="sidebar-wrapper">
     <div class="sidebar">
         <div class="sidebar-items menu"> <span>Menu</span> <span class="close-menu"> x </span></div>
-        <div class="home-link sidebar-items"><a href='http://<?php echo "$_SERVER[HTTP_HOST]/cardolates"; ?>' class=""> Home </a></div>
-        <div class="home-link sidebar-items"><a href='http://<?php echo "$_SERVER[HTTP_HOST]/cardolates/compose"; ?>' class=""> Compose </a></div>
-        <div class="home-link sidebar-items"><a href='http://<?php echo "$_SERVER[HTTP_HOST]/cardolates#pricing"; ?>' class=""> Pricing </a></div>
+        <div class="home-link sidebar-items"><a href='https://<?php echo "$_SERVER[HTTP_HOST]"; ?>' class=""> Home </a></div>
+        <div class="home-link sidebar-items"><a href='https://<?php echo "$_SERVER[HTTP_HOST]/compose"; ?>' class=""> Compose </a></div>
+        <div class="home-link sidebar-items"><a href='https://<?php echo "$_SERVER[HTTP_HOST]#pricing"; ?>' class=""> Pricing </a></div>
         <div class="home-link sidebar-items"><a href="mailto:carolates@gmail.com" class=""> Contact Us </a></div>
         <div class="login-link sidebar-items">
             <?php
             if (isset($_SESSION["cardolates_user_id"])) {
                 // $temp = $_SERVER[HTTP_HOST]."/cardolates";
-                echo "<a href='http://$_SERVER[HTTP_HOST]/cardolates/logout.php' class='login-link'> Logout </a>";
+                echo "<a href='https://$_SERVER[HTTP_HOST]/logout.php' class='login-link'> Logout </a>";
             } else {
-                echo "<a  href='http://$_SERVER[HTTP_HOST]/cardolates/login' class=''>  Login </a>";
+                echo "<a  href='https://$_SERVER[HTTP_HOST]/login' class=''>  Login </a>";
             }
 
             ?>
@@ -23,28 +23,28 @@
 <nav>
     <div class="nav-wrapper">
         <div>
-            <img src="http://<?php echo "$_SERVER[HTTP_HOST]/cardolates"; ?>/img/hamburger.png" alt="Menu Icon" class="img-fluid d-inline d-md-none ham-burger">
-            <img src="http://<?php echo "$_SERVER[HTTP_HOST]/cardolates"; ?>/img/logo.png" alt="Cardolates Logo" class="img-fluid logo">
+            <img src="https://<?php echo "$_SERVER[HTTP_HOST]"; ?>/img/hamburger.png" alt="Menu Icon" class="img-fluid d-inline d-md-none ham-burger">
+            <img src="https://<?php echo "$_SERVER[HTTP_HOST]"; ?>/img/logo.png" alt="Cardolates Logo" class="img-fluid logo">
         </div>
         <ul class="d-none d-md-flex nav-item-wrapper">
-            <li><a href='http://<?php echo "$_SERVER[HTTP_HOST]/cardolates"; ?>' class="nav-item home-link">Home</a></li>
-            <li><a href='http://<?php echo "$_SERVER[HTTP_HOST]/cardolates/compose"; ?>' class="nav-item home-link">Compose</a></li>
-            <li><a href='http://<?php echo "$_SERVER[HTTP_HOST]/cardolates#pricing"; ?>' class="nav-item pricing-link">Pricing</a></li>
+            <li><a href='https://<?php echo "$_SERVER[HTTP_HOST]"; ?>' class="nav-item home-link">Home</a></li>
+            <li><a href='https://<?php echo "$_SERVER[HTTP_HOST]/compose"; ?>' class="nav-item home-link">Compose</a></li>
+            <li><a href='https://<?php echo "$_SERVER[HTTP_HOST]#pricing"; ?>' class="nav-item pricing-link">Pricing</a></li>
             <li><a href="mailto:carolates@gmail.com" class="nav-item contact-link">Contact us</a></li>
             <li>
                 <?php
                 if (isset($_SESSION["cardolates_user_id"])) {
                     // $temp = $_SERVER[HTTP_HOST]."/cardolates";
-                    echo "<a href='http://$_SERVER[HTTP_HOST]/cardolates/logout.php' class='nav-item login-link'> Logout </a>";
+                    echo "<a href='https://$_SERVER[HTTP_HOST]/logout.php' class='nav-item login-link'> Logout </a>";
                 } else {
-                    echo "<a href='http://$_SERVER[HTTP_HOST]/cardolates/login' class='nav-item login-link'>  Login </a>";
+                    echo "<a href='https://$_SERVER[HTTP_HOST]/login' class='nav-item login-link'>  Login </a>";
                 }
                 ?>
             </li>
         </ul>
         <div class="d-flex" style="justify-content: space-between;">
-            <a href="<?php echo "https://$_SERVER[HTTP_HOST]/cardolates/inbox/"; ?>" style="text-decoration: none;">
-                <img src="http://<?php echo "$_SERVER[HTTP_HOST]/cardolates"; ?>/img/text.png" alt="Text" class="img-fluid">
+            <a href="<?php echo "https://$_SERVER[HTTP_HOST]/inbox/"; ?>" style="text-decoration: none;">
+                <img src="https://<?php echo "$_SERVER[HTTP_HOST]"; ?>/img/text.png" alt="Text" class="img-fluid">
                 <?php
                 $url =  $_SERVER['PHP_SELF'];
                 $conURL = "";
@@ -62,10 +62,10 @@
                 ?>
             </a>
             <!-- <div class="d-flex align-items-center credits-wrapper ml-3">
-                <img src="http://<?php echo "$_SERVER[HTTP_HOST]/cardolates"; ?>/img/coin.png" alt="Coins" class="img-fluid">
+                <img src="https://<?php echo "$_SERVER[HTTP_HOST]"; ?>/img/coin.png" alt="Coins" class="img-fluid">
                 <p class="m-0 total-credits"> - </p>
             </div> -->
-            <a class="profile-a" href="http://<?php echo "$_SERVER[HTTP_HOST]/cardolates" ?>/profile">
+            <a class="profile-a" href="https://<?php echo "$_SERVER[HTTP_HOST]" ?>/profile">
                 <?php
                 if (isset($_SESSION["cardolates_user_shortname"])) {
                     $temp = $_SESSION["cardolates_user_shortname"];
